@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Acerca apoyo personal y comunitario">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="../css/estilos.css" rel="stylesheet">
+    <title>Vive con propósito</title>
+</head>
+
+<body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold py-2" href="./index.html">Vive con Propósito</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navPrincipal"
+                aria-controls="navPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navPrincipal">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.html#nosotros">Sobre nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.html#recursos">Recursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.html#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contactos.html">Contactanos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- main -->
+    <main>
+
+        <!-- seccion Inicio -->
+        <!-- implementación grid con bootstrap y grid css con grid-section -->
+        <section id="inicio" class="inicio text-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="display-3 fw-bold mb-4">Descubre tu propósito.<br>Vive con intención.</h1>
+                        <p class="lead mb-5">Una comunidad para crecer personalmente, apoyar causas que importan y crear
+                            un impacto real en el mundo.</p>
+                        <div class="grid-section">
+                            <a href="#recursos" class="btn btn-primary btn-lg me-3">Empieza ahora gratis</a>
+                            <a href="./contactos.html" class="btn btn-outline-light btn-lg">Únete a la comunidad</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mision, Vision -->
+        <!-- implementación de flexbox y grid con bootstrap -->
+        <section id="nosotros">
+            <div class="container">
+                <div class="row justify-content-center align-items-center g-4">
+                    <div class="col-lg-10 col-md-10 text-center text-lg-start">
+                        <h3 class="fw-semibold pregunta">¿Qué es vive con propósito?</h2>
+                            <p class="lead">Vive con propósito nace de una inspiración de un equipo de personas que
+                                vieron la necesidad de conectar personas con necesidades de enfoque y grupos de ayuda o
+                                comunidades con causas sociales afines, formando una red de apoyo para los que
+                                necesiten.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center g-4">
+                    <div class="col-lg-10 col-md-10 text-center text-lg-start">
+                        <h3 class="fw-semibold pregunta">¿Cuál es nuestra misión?</h2>
+                            <p class="lead">
+                                “Inspirar y educar a las personas para vivir de manera más consciente, enfocada en el
+                                desarrollo personal, apoyo a causas sociales y bienestar comunitario.”
+                            </p>
+                    </div>
+                </div>
+        </section>
+
+        <!--seccion recursos -->
+        <!-- implementación de flexbox y grid con bootstrap -->
+        <section id="recursos" class="py-5 recursos-bg">
+            <div class="container py-5">
+                <h2 class="section-title text-center mb-5">Recursos gratuitos para empezar</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card recurso-card-hover  h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Workbook: Descubre tu propósito</h5>
+                                <p class="card-text">20 páginas de ejercicios prácticos para encontrar la intersección
+                                    entre lo que amas, lo que el mundo necesita y lo que puedes monetizar.</p>
+                                <a href="#" class="btn btn-outline-primary mt-auto">Descargar gratis →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card recurso-card-hover h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Reto: 30 días con intención</h5>
+                                <p class="card-text">Un hábito diario sencillo para alinear tu rutina con tus valores
+                                    más profundos.</p>
+                                <a href="#" class="btn btn-outline-primary mt-auto">Unirme al reto →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card recurso-card-hover h-100">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Test: ¿Cuál es tu arquetipo de propósito?</h5>
+                                <p class="card-text">Descubre en 5 minutos qué tipo de impacto estás llamado a generar.
+                                </p>
+                                <a href="#" class="btn btn-outline-primary mt-auto">Hacer el test →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--seccion proyectos -->
+        <!-- implementación de flexbox con bootstrap -->
+        <section id="proyectos" class="py-5">
+            <div class="container py-5">
+                <h2 class="section-title text-center mb-5">Proyectos y retos comunitarios</h2>
+                <div class="row text-center">
+                    <div class="col-md-3 mb-4">
+                        <div class="bg-primary text-white rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center
+                        proyecto-card">
+                            <i class="bi bi-globe-americas"></i>
+                        </div>
+                        <h5>30 días sin plástico</h5>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="bg-success text-white rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center
+                        proyecto-card">
+                            <i class="bi bi-heart"></i>
+                        </div>
+                        <h5>100 horas de voluntariado 2026</h5>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="bg-warning text-dark rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center
+                        proyecto-card">
+                            <i class="bi bi-people" width="50"></i>
+                        </div>
+                        <h5>Huertos urbanos locales</h5>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="bg-info text-white rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center
+                        proyecto-card">
+                            <i class="bi bi-book" width="50"></i>
+                        </div>
+                        <h5>Mentorías gratuitas</h5>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="#" class="btn btn-primary btn-lg">Ver todos los proyectos →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-1">Correo: contacto@viveconproposito.com.py | Teléfono: 021 123 456</p>
+            <p class="mt-3 mb-0">&copy; 2025 Vivir con Propósito. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
