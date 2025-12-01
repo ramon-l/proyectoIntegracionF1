@@ -57,17 +57,17 @@ textarea {
 }
 
 footer {
-    background: var(--bs-celeste-medio);
-    color: var(--bs-light);
+    background: var(--bs-body-color);
+    color: var(--bs-light-rgb);
 }
 
 footer a {
-    color: rgba(var(--bs-light), 0.8);
+    color: var(--bs-light-rgb);
     text-decoration: none;
 }
 
 footer a:hover {
-    color: var(--bs-light);
+    color: var(--bs-light-rgb);
 }
 
 i {
@@ -131,25 +131,24 @@ i {
     border-radius: 50px;
     padding: 10px 30px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .btn-primary  {
-    background: var(--bs-celeste-medio);
+    background: #3C5E80;
     border: none;
-    color: var(--bs-light);
+    color: var(--bs-light-rgb);
 }
 
 .btn-primary:hover, .btn-primary:active,
 .btn-primary:active:hover, .btn-primary:active:focus {
     background: var(--bs-celeste-medio);
-    opacity: 0.9;
-    color: var(--bs-light);
+    color: var(--bs-light-rgb);
 }
 
 .btn-outline-primary {
     border: 2px solid var(--bs-celeste-medio);
-    color: var(--bs-celeste-medio);
+    color: #345B6F;
     background-color: transparent;
 }
 
